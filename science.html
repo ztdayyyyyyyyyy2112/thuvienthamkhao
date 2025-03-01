@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thư viện Nghiên cứu Khoa học</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            text-align: center;
+            color: white;
+            overflow: hidden;
+            position: relative;
+        }
+        .header {
+            background: rgba(0, 0, 0, 0.2);
+            color: white;
+            padding: 20px;
+            font-size: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            position: relative;
+            z-index: 2;
+        }
+        .container {
+            margin: 20px auto;
+            max-width: 1200px;
+            position: relative;
+            z-index: 2;
+        }
+        .category {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            position: relative;
+            z-index: 2;
+        }
+        .category h2 {
+            color: white;
+            font-size: 26px;
+        }
+        .category .button-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .category .button-container a {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.3s;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+        .category .button-container a:hover {
+            background: rgba(255, 255, 255, 0.5);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Thư viện Nghiên cứu Khoa học</div>
+    <div class="container">
+        <div class="category">
+            <h2>Trang web nghiên cứu miễn phí</h2>
+            <div class="button-container">
+                <a href="https://arxiv.org/" target="_blank">ArXiv</a>
+                <a href="https://www.researchgate.net/" target="_blank">ResearchGate</a>
+                <a href="https://scholar.google.com/" target="_blank">Google Scholar</a>
+                <a href="https://www.ncbi.nlm.nih.gov/pmc/" target="_blank">PubMed Central</a>
+            </div>
+        </div>
+        <div class="category">
+            <h2>Trang web nghiên cứu trả phí</h2>
+            <div class="button-container">
+                <a href="https://www.sciencedirect.com/" target="_blank">ScienceDirect</a>
+                <a href="https://www.springer.com/" target="_blank">Springer</a>
+                <a href="https://www.nature.com/" target="_blank">Nature</a>
+                <a href="https://www.scopus.com/" target="_blank">Scopus</a>
+            </div>
+        </div>
+        <div class="category">
+            <h2>Trang web nghiên cứu quốc tế</h2>
+            <div class="button-container">
+                <a href="https://www.pnas.org/" target="_blank">Proceedings of the National Academy of Sciences</a>
+                <a href="https://www.cell.com/" target="_blank">Cell</a>
+                <a href="https://academic.oup.com/" target="_blank">Oxford Academic</a>
+                <a href="https://journals.sagepub.com/" target="_blank">SAGE Journals</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
